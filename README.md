@@ -63,6 +63,6 @@ xargs -n 1 code --install-extension < extensions.txt
 
 ## 🧠 Notes
 
-- Compatible with the terminal setup from my [terminal repository](../my-terminal-conf)
+- Compatible with the terminal setup from my [my-terminal-conf repository](https://github.com/nastarandarjani/my-terminal-conf)
 
 **Enjoy your configured VS Code! 🚀**
