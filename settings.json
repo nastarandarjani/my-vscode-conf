@@ -1,0 +1,360 @@
+{
+    "files.defaultLanguage": "python",
+    "jupyter.interactiveWindow.textEditor.executeSelection": true,
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "python.envFile": "/home/nasi14/venv",
+    "files.autoSave": "onFocusChange",
+    "editor.minimap.autohide": "mouseover",
+    "notebook.defaultFormatter": "charliermarsh.ruff",
+    "notebook.formatOnSave.enabled": true,
+    "a-file-icon-vscode.languagesAssociations": {},
+    "editor.minimap.sectionHeaderFontSize": 16,
+    "better-comments.tags": [
+        {
+            "tag": "!",
+            "color": "#ffffff",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "#FF2D00",
+            "bold": false,
+        },
+        {
+            "tag": "?",
+            "color": "#FF8C00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+        },
+        {
+            "tag": "todo",
+            "color": "#000000",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "#FFDE21",
+            "bold": false,
+        },
+        {
+            "tag": "*",
+            "color": "#98C379",
+            "strikethrough": false,
+            "underline": true,
+            "backgroundColor": "transparent",
+            "bold": true,
+        }
+    ],
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "modificationsIfAvailable",
+    "[python]": {
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.formatOnType": true,
+        "editor.wordBasedSuggestions": "off",
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        }
+    },
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "extensions.autoUpdate": "onlyEnabledExtensions",
+    "update.mode": "start",
+    "remote.SSH.defaultForwardedPorts": [],
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "workbench.editorAssociations": {
+        "*.copilotmd": "vscode.markdown.preview.editor",
+        "*.pdf": "latex-workshop-pdf-hook",
+        "file:/**/*.csv": "jupyter-data-wrangler"
+    },
+    "workbench.editor.defaultBinaryEditor": "latex-workshop-pdf-hook",
+    "latex-workshop.synctex.afterBuild.enabled": true,
+    "latex-workshop.formatting.latex": "tex-fmt",
+    "latex-workshop.latex.tools": [
+        {
+            "name": "latexmk",
+            "command": "latexmk",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-pdf",
+                "-outdir=%OUTDIR%",
+                "%DOC%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "lualatexmk",
+            "command": "latexmk",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-lualatex",
+                "-outdir=%OUTDIR%",
+                "%DOC%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "xelatexmk",
+            "command": "latexmk",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-xelatex",
+                "-outdir=%OUTDIR%",
+                "%DOC%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "latexmk_rconly",
+            "command": "latexmk",
+            "args": [
+                "%DOC%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "pdflatex",
+            "command": "pdflatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOC%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "bibtex",
+            "command": "bibtex",
+            "args": [
+                "%DOCFILE%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "rnw2tex",
+            "command": "Rscript",
+            "args": [
+                "-e",
+                "knitr::opts_knit$set(concordance = TRUE); knitr::knit('%DOCFILE_EXT%')"
+            ],
+            "env": {}
+        },
+        {
+            "name": "jnw2tex",
+            "command": "julia",
+            "args": [
+                "-e",
+                "using Weave; weave(\"%DOC_EXT%\", doctype=\"tex\")"
+            ],
+            "env": {}
+        },
+        {
+            "name": "jnw2texminted",
+            "command": "julia",
+            "args": [
+                "-e",
+                "using Weave; weave(\"%DOC_EXT%\", doctype=\"texminted\")"
+            ],
+            "env": {}
+        },
+        {
+            "name": "pnw2tex",
+            "command": "pweave",
+            "args": [
+                "-f",
+                "tex",
+                "%DOC_EXT%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "pnw2texminted",
+            "command": "pweave",
+            "args": [
+                "-f",
+                "texminted",
+                "%DOC_EXT%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "tectonic",
+            "command": "tectonic",
+            "args": [
+                "--synctex",
+                "--keep-logs",
+                "--print",
+                "%DOC%.tex"
+            ],
+            "env": {}
+        }
+    ],
+    "wordcounter.side.left": [],
+    "notebook.lineNumbers": "on",
+    "workbench.editor.empty.hint": "hidden",
+    "workbench.preferredDarkColorTheme": "Catppuccin Frappé",
+    "workbench.preferredLightColorTheme": "Catppuccin Latte",
+    "workbench.iconTheme": "catppuccin-frappe",
+    "editor.formatOnPaste": true,
+    "editor.autoIndentOnPaste": true,
+    "window.autoDetectHighContrast": false,
+    "editor.fontSize": 15,
+    "window.commandCenter": false,
+    "python.defaultInterpreterPath": "/opt/homebrew/anaconda3",
+    "python.experiments.enabled": false,
+    "wordcounter.languages": [
+        "tex",
+        "bib",
+        "md",
+        "markdown"
+    ],
+    "python.useEnvironmentsExtension": true,
+    "python.analysis.ignore": [
+        "*"
+    ],
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "[markdown]": {
+        "editor.fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif",
+        "editor.lineNumbers": "off",
+        "editor.wordWrap": "bounded",
+        "editor.wordWrapColumn": 100,
+        "editor.quickSuggestions": {
+            "comments": "on",
+            "strings": "on",
+            "other": "on"
+        },
+        "files.trimTrailingWhitespace": false,
+        "editor.codeActionsOnSave": {
+            "source.fixAll.markdownlint": "explicit",
+        },
+        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+    },
+    "[latex]": {
+        "editor.defaultFormatter": "James-Yu.latex-workshop",
+        "editor.fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif",
+        "editor.lineNumbers": "off",
+        "editor.wordWrap": "bounded",
+        "editor.wordWrapColumn": 100,
+        "editor.quickSuggestions": {
+            "comments": "on",
+            "strings": "on",
+            "other": "on"
+        },
+    },
+    "markdown.extension.completion.enabled": true,
+    "markdown.extension.math.enabled": false,
+    "markdown.extension.preview.autoShowPreviewToSide": true,
+    "breadcrumbs.enabled": false,
+    "editor.fontLigatures": true,
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+    "editor.trimWhitespaceOnDelete": true,
+    "pythonIndent.trimLinesWithOnlyWhitespace": true,
+    "workbench.colorCustomizations": {
+        "[Atom One Light]": {
+            "sideBar.foreground": "#3B3B3B",
+        },
+    },
+    "workbench.editor.tabSizing": "shrink",
+    "markdown.preview.fontSize": 15,
+    "window.restoreFullscreen": true,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "wordcounter.side.right": [
+        "word",
+        "char",
+        "paragraph"
+    ],
+    "window.customTitleBarVisibility": "windowed",
+    "custom-ui-style.stylesheet": {
+        ".monaco-workbench": {
+            ".title.tabs": {
+                "--editor-group-tab-height": "40px !important",
+            },
+            // "--activitybar-width": "40px",
+            // ".split-view-view:has(> .part.activitybar.left)": {
+            //     "&, .part.activitybar.left, .content": {
+            //         "min-width": "var(--activitybar-width)",
+            //     },
+            //     // Make the split-view after the wide activity bar smaller.
+            //     // Also handle the situation where the sidebar is hidden,
+            //     // in which case the editor itself needs to shrink / auto-size.
+            //     "& + .split-view-view.visible, & + .split-view-view:not(.visible) + .split-view-view.visible": {
+            //         "--offset": "calc(var(--activitybar-width) - 48px)",
+            //         "margin-left": "var(--offset)",
+            //         "> *:first-child": {
+            //             "width": "auto",
+            //             "margin-right": "var(--offset)",
+            //             // Auto-size the editor when the sidebar is hidden.
+            //             ".content": {
+            //                 "&, .split-view-view": {
+            //                     "&, .monaco-editor": {
+            //                         "&, .overflow-guard, .overlayWidgets": {
+            //                             "&, .monaco-scrollable-element, .sticky-widget": {
+            //                                 "width": "unset !important",
+            //                                 "left": "0",
+            //                                 "right": "0"
+            //                             },
+            //                             ".sticky-widget": {
+            //                                 "right": "14px !important"
+            //                             }
+            //                         }
+            //                     }
+            //                 }
+            //             }
+            //         },
+            //     }
+            // },
+            // ".monaco-sash.vertical.minimum": {
+            //     "left": "calc(var(--activitybar-width) - var(--vscode-sash-size) / 2) !important"
+            // },
+            // ".part.activitybar.left": {
+            //     ".monaco-action-bar": {
+            //         ".action-label": {
+            //             "width": "var(--activitybar-width)",
+            //             "padding": "0 !important",
+            //         },
+            //         ".badge": {
+            //             ".badge-content": {
+            //                 "top": "25px",
+            //                 "right": "9px",
+            //             }
+            //         }
+            //     },
+            // },
+            ".statusbar": {
+                // Show the host button again, and make it as wide as the .activitybar.
+                "#status\\.host": {
+                    "&": {
+                        "display": "block !important",
+                        "width": "47px !important"
+                    },
+                    ".codicon": {
+                        "margin": "0 auto"
+                    }
+                }
+            },
+            // // ".part.sidebar.left": {
+            // //     ".composite.title": {
+            // //         "height": "40px",
+            // //         "align-items": "center",
+            // //     }
+            // // }
+        },
+    },
+    "window.autoDetectColorScheme": true,
+    "catppuccin.accentColor": "lavender",
+    "editor.semanticHighlighting.enabled": true,
+    "editor.defaultColorDecorators": "always",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontFamily": "'JetBrainsMono Nerd Font Mono'",
+    "terminal.integrated.defaultProfile.osx": "zsh",
+}

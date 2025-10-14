@@ -1,0 +1,15 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "ctrl+shift+enter",
+        "command": "python.execInTerminal-icon"
+    },
+    {
+        "key": "cmd+t",
+        "command": "workbench.action.togglePanel"
+    },
+    {
+        "key": "cmd+j",
+        "command": "workbench.action.showAllSymbols"
+    },
+]
