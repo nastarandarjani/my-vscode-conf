@@ -4,7 +4,7 @@ This repository contains my personal **VS Code configuration**, including:
 
 - User settings (`settings.json`)
 - Keybindings (`keybindings.json`)
-- Installed extensions (`extensions.txt`)
+- Installed extensions (`extensions.list`)
 
 It is designed to help you quickly set up a consistent VS Code environment across machines.
 
@@ -38,10 +38,10 @@ cp keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
 
 ### 3. Install Extensions
 
-This repository includes a list of extensions in `extensions.txt`. You can install them all with:
+This repository includes a list of extensions in `extensions.list`. You can install them all with:
 
 ```bash
-xargs -n 1 code --install-extension < extensions.txt
+xargs -n 1 code --install-extension < extensions.list
 ```
 
 > Make sure the `code` command is available in your terminal.  
@@ -54,7 +54,7 @@ xargs -n 1 code --install-extension < extensions.txt
 ```bash
 .
 ├── README.md
-├── extensions.txt
+├── extensions.list
 ├── keybindings.json
 └── settings.json
 ```
